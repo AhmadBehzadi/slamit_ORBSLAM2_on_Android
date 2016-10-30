@@ -144,7 +144,7 @@ cv::Mat System::getmVelocity(cv::Mat Rebin){
     cv::Mat velocity = cv::Mat::eye(4,4,CV_32F);
     //cv::Mat rotation = velocity.colRange(0,3).rowRange(0,3);
     cv::Mat Rcc = Rbc.t()*Reb.t()*RebOld*Rbc;
-    Rcc.copyTo(velocity.colRange(0,3).rowRange(0,3););
+    Rcc.copyTo(velocity.colRange(0,3).rowRange(0,3));
     return velocity;
 }
 

@@ -208,7 +208,7 @@ void MapDrawer::DrawCurrentCamera(const cv::Mat &M) {
 			sVec = zVec.cross(uVec);
 			normalize(sVec.col(0),sVec.col(0),1,cv::NORM_L2);
 			uVec = sVec.cross(zVec);
-			normalize(uec.col(0),uVec.col(0),1,cv::NORM_L2);
+			normalize(uVec.col(0),uVec.col(0),1,cv::NORM_L2);
 			// uVec = sVec.cross(zVec);
 
 			viewPos = Rwc*viewPos+twc;

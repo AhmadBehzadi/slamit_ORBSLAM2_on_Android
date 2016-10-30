@@ -193,7 +193,11 @@ JNIEXPORT jfloatArray JNICALL Java_orb_slam2_android_nativefunc_OrbNdkHelper_sta
         for (int j = 0; j < 3; j++) {
             Reb.at <float> (i,j) = Rdummy[i * 3 + j];
         }
-        cv::Mat ima = s->TrackMonocular(*im, timestamp,s->getmVelocity(Reb));
+		// Needs further investigation as there is no method with 3 args. For now only 2 args.
+		// Reverting to 2 args for now to get the build going and later fix it.
+        //cv::Mat ima = s->TrackMonocular(*im, timestamp, s->getmVelocity(Reb));
+		cv::Mat ima = s->TrackMonocular(*im, timestamp);
+
     	//maxiaoba
    	            /*cv::Mat Rwc = Tcw.rowRange(0,3).colRange(0,3).t();
                 cv::Mat twc = -Rwc*Tcw.rowRange(0,3).col(3); //origin to camera in world frame
