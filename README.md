@@ -5,6 +5,10 @@
 This has some updates to the original slamit app. Some build issues related to C++ modules were fixed.                                                  
 The main slam UI has been reorganized. Background color for the point cloud mapping has been changed to black instead of white. Mapping points are blue and red instead of black and red.
 
+![alt text][logo]
+
+[logo]: https://github.com/aivijay/slamit_ORBSMAL2_on_Android/blob/master/images/slam-samsung-s6edge.png "SMAL Screenshot"
+
 # Notes on running
 
 1. You will have to create a folder named SLAM on the internal storage (eg., /storage/emulated/0/SLAM)
