@@ -22,6 +22,7 @@ The main slam UI has been reorganized. Background color for the point cloud mapp
 # Building
 
 If you want to build it from scratch, you will need to setup Android studio, ndk-build and a host of others especially if your planning on building the C++ modules and edit it for your own needs.
+
 1. Setup Android studio and import the project.
 2. Setup ndk on your machine
 3. In order to build ORBSlam2 C++ shared object, you can build it from the terminal from the oRB_SLAM2_Android/src/main directory. Just run ndk-build and it should show some warnings but build. Note you will have to have an ndk setup on your machine and be in your path to build. Once its successful, it will create a bunch of .so files under libs/arm.../ folder. Just copy them into jniLibs/arm.../folder. 
