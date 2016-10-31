@@ -12,7 +12,7 @@ The main slam UI has been reorganized. Background color for the point cloud mapp
 # Notes on running
 
 1. You will have to create a folder named SLAM on the internal storage (eg., /storage/emulated/0/SLAM)
-2. ORBvoc.txt file needs to be copied to this folder (refer ORB_SLAM2 and get the zip file and unzip it and put it). Without this the app will crash.
+2. ORBvoc.txt file needs to be copied to this folder (refer ORB_SLAM2 and get the zip file <a href="https://github.com/raulmur/ORB_SLAM2/blob/master/Vocabulary/ORBvoc.txt.tar.gz">ORBvoc.txt.tar.gz</a> and unzip it and put it). Without this the app will crash.
 3. Calibrate your camera using OpenCV or some calibration tool. Use the TUM1.yaml file in ORB_SLAM2 C++ application under examples and sync your calibrated data for fx, fy, cx, cy, k1, k2, p1, p2, and p3.
 4. Put the calibrated file into the SLAM folder. By default slamit uses the file named List3.yaml as the calibration file if its not slected during the run of the application
 5. Once the calibration file is selected and ORBvoc.txt is in your SLAM folder. The applicastion should start initialize SLAM and after a few seconds, show the tracker on your right in a black screen. A preview of the video fed will be shown on the left side. The SLAM initialization takes almost close to a minute on a normal phone (tested on Samsung S6 edge, HTC m8 and LG G3). Depending on the phones processing power and memory, it will take some time.
