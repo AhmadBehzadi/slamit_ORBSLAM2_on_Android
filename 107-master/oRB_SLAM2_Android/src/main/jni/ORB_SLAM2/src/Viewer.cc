@@ -174,12 +174,22 @@ void Viewer::Run()
 
 void Viewer::drawGL(){
 	LOG("Viewer drawGL Thread has been started!");
-    // glEnable (GL_BLEND);
-    // glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-    // glClearColor(1.0f,1.0f,1.0f,1.0f);
+    LOG("Viewer drawGL --> STEP 1");
+
+//     glEnable (GL_BLEND);
+//     glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+//     glClearColor(1.0f,1.0f,1.0f,1.0f);
+
+
+    LOG("Viewer drawGL ------> STEP 2");
+
+
     mpMapDrawer->DrawCurrentCamera(mpMapDrawer->GetCurrentOpenGLCameraMatrix());
+    LOG("Viewer drawGL ---------------> STEP 3 -- DONE");
+
     // mpMapDrawer->DrawKeyFrames(false,true);
     // mpMapDrawer->DrawMapPoints();
+
 }
 
 void Viewer::RequestFinish()

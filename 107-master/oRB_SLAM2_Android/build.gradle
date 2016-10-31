@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "24.0.0"
+    buildToolsVersion '24.0.0'
 
     sourceSets.main {
         jni.srcDirs = []
@@ -10,11 +10,14 @@ android {
 
     defaultConfig {
         applicationId "orb.slam2.android"
-        minSdkVersion 13
+        minSdkVersion 14
         targetSdkVersion 23
 
         ndk {
             moduleName "lapack"
+        }
+        sourceSets.main {
+            jniLibs.srcDir "src/main/jniLibs"
         }
     }
 
@@ -32,13 +35,13 @@ android {
 
 dependencies {
     compile project(':openCVLibrary249')
-//    compile 'com.android.support:support-v4:19.1.0'
-    compile "com.android.support:support-v4:23.3.0"
-    compile "com.android.support:support-v13:23.3.0"
-    compile "com.android.support:cardview-v7:23.3.0"
+    //    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.android.support:support-v4:23.3.0'
+    compile 'com.android.support:support-v13:23.3.0'
+    compile 'com.android.support:cardview-v7:23.3.0'
     compile 'com.android.support:appcompat-v7:23.0.0'
-//    compile "com.android.support:support-v4:19.1.0"
-//    compile "com.android.support:support-v13:19.1.0"
-//    compile "com.android.support:cardview-v7:+"
-//    compile 'com.android.support:appcompat-v7:+'
+    //    compile "com.android.support:support-v4:19.1.0"
+    //    compile "com.android.support:support-v13:19.1.0"
+    //    compile "com.android.support:cardview-v7:+"
+    //    compile 'com.android.support:appcompat-v7:+'
 }

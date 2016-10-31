@@ -39,7 +39,8 @@ public class FileChooserActivity extends Activity {
 				  WindowManager.LayoutParams.FLAG_FULLSCREEN);//设置全屏
 		setContentView(R.layout.filechooser_show);
 
-		mSdcardRootPath = Environment.getExternalStorageDirectory().getAbsolutePath();// �õ�sdcardĿ¼
+		//mSdcardRootPath = Environment.getExternalStorageDirectory().getAbsolutePath();// �õ�sdcardĿ¼
+		mSdcardRootPath = "/sdcard"; // default to sdcard...
 
 		mBackView = findViewById(R.id.imgBackFolder);
 		mBackView.setOnClickListener(mClickListener);

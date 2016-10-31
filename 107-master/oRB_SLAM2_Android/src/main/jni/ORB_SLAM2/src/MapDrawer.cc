@@ -66,7 +66,9 @@ void MapDrawer::DrawMapPoints() {
 	glEnable (GL_COLOR_MATERIAL);
 	glEnableClientState (GL_VERTEX_ARRAY);
 
-	glColor4f(0.0f, 0.0f, 0.0f, 1.0f);
+	//glColor4f(0.0f, 0.0f, 0.0f, 1.0f); // black
+	glColor4f(0.0f, 0.0f, 1.0f, 1.0f); // blue
+
 	for (int i = 0, iend = vpMPs.size(); i < iend; i++) {
 		if (vpMPs[i]->isBad() || spRefMPs.count(vpMPs[i]))
 			continue;
@@ -97,10 +99,18 @@ void MapDrawer::DrawKeyFrames(const bool bDrawKF, const bool bDrawGraph) {
 	const float h = w * 0.75;
 	const float z = w * 0.6;
 
+	LOG("debug: ----->>>> MapDrawer::DrawKeyFrames -- START --------------");
+
 	const vector<KeyFrame*> vpKFs = mpMap->GetAllKeyFrames();
 	glEnable (GL_COLOR_MATERIAL);
 	glEnableClientState (GL_VERTEX_ARRAY);
+
+	LOG("debug: ----->>>> MapDrawer::DrawKeyFrames -- KF1 --------------");
+
+
 	if (bDrawKF) {
+		LOG("debug: ----->>>> MapDrawer::DrawKeyFrames -- KF2 -- bDrawKF OPTION TRUE --------------");
+
 		for (size_t i = 0; i < vpKFs.size(); i++) {
 			KeyFrame* pKF = vpKFs[i];
 			cv::Mat Twc = pKF->GetPoseInverse().t();
@@ -118,6 +128,8 @@ void MapDrawer::DrawKeyFrames(const bool bDrawKF, const bool bDrawGraph) {
 	}
 	glFlush();
 	if (bDrawGraph) {
+		LOG("debug: ----->>>> MapDrawer::DrawKeyFrames -- KF3 bDrawGraph TRUE --------------");
+
 		glLineWidth(mGraphLineWidth);
 		glColor4f(0.0f, 1.0f, 0.0f, 0.6f);
 		for (size_t i = 0; i < vpKFs.size(); i++) {
@@ -142,6 +154,8 @@ void MapDrawer::DrawKeyFrames(const bool bDrawKF, const bool bDrawGraph) {
 			// Spanning tree
 			KeyFrame* pParent = vpKFs[i]->GetParent();
 			if (pParent) {
+				LOG("debug: ----->>>> MapDrawer::DrawKeyFrames -- KF4 --------------");
+
 				cv::Mat Owp = pParent->GetCameraCenter();
 				GLfloat vertexArray[] = { Ow.at<float>(0), Ow.at<float>(1),
 						Ow.at<float>(2), Owp.at<float>(0), Owp.at<float>(1),
@@ -166,7 +180,10 @@ void MapDrawer::DrawKeyFrames(const bool bDrawKF, const bool bDrawGraph) {
 		}
 
 	}
+	LOG("debug: ----->>>> MapDrawer::DrawKeyFrames -- KF5 --------------");
+
 	glFlush();
+	LOG("debug: ----->>>> MapDrawer::DrawKeyFrames -- END --------------");
 
 }
 
@@ -176,8 +193,13 @@ void MapDrawer::DrawCurrentCamera(const cv::Mat &M) {
 	const float z = w * 0.6;
 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+
 	glScalef(2.0f,2.0f,2.0f);
-	glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
+
+	//glClearColor(1.0f, 1.0f, 1.0f, 1.0f); // white
+	glClearColor(0.0f, 0.0f, 0.0f, 0.0f); // black
+
 	
 	cv::Mat temp = cv::Mat::eye(4,4,CV_32F);
 	glEnable (GL_COLOR_MATERIAL);
@@ -255,7 +277,7 @@ void MapDrawer::DrawCurrentCamera(const cv::Mat &M) {
 	glDrawArrays(GL_LINES, 0, 16);
 	glPopMatrix();
 	glFlush();
-	DrawKeyFrames(false,true);
+////	DrawKeyFrames(false,true);
     DrawMapPoints();
 	// glDisableClientState (GL_VERTEX_ARRAY);
 	// glDisable (GL_COLOR_MATERIAL);

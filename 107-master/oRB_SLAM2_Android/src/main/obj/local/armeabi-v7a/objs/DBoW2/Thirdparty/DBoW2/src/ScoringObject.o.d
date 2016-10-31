@@ -1,62 +1,62 @@
 obj/local/armeabi-v7a/objs/DBoW2/Thirdparty/DBoW2/src/ScoringObject.o: \
  jni/Thirdparty/DBoW2/src/ScoringObject.cpp \
- /Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/cfloat \
+ /opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/cfloat \
  jni/Thirdparty/DBoW2/include/DBoW2/TemplatedVocabulary.h \
- /Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/cassert \
- /Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/vector \
- /Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/numeric \
- /Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/fstream \
- /Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm \
- /Users/Zack/AndroidStudioProjects/ORB_SLAM2_Android_Mac/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/core.hpp \
- /Users/Zack/AndroidStudioProjects/ORB_SLAM2_Android_Mac/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/types_c.h \
- /Users/Zack/AndroidStudioProjects/ORB_SLAM2_Android_Mac/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/version.hpp \
- /Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/cstddef \
- /Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/complex \
- /Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/map \
- /Users/Zack/AndroidStudioProjects/ORB_SLAM2_Android_Mac/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/operations.hpp \
- /Users/Zack/AndroidStudioProjects/ORB_SLAM2_Android_Mac/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/mat.hpp \
+ /opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert \
+ /opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
+ /opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/numeric \
+ /opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/fstream \
+ /opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm \
+ /home/vijay/android/tadp/opencv-src/opencv-android-sdk-2.4.9/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/core.hpp \
+ /home/vijay/android/tadp/opencv-src/opencv-android-sdk-2.4.9/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/types_c.h \
+ /home/vijay/android/tadp/opencv-src/opencv-android-sdk-2.4.9/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/version.hpp \
+ /opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/cstddef \
+ /opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/complex \
+ /opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
+ /home/vijay/android/tadp/opencv-src/opencv-android-sdk-2.4.9/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/operations.hpp \
+ /home/vijay/android/tadp/opencv-src/opencv-android-sdk-2.4.9/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/mat.hpp \
  jni/Thirdparty/DBoW2/include/DBoW2/FeatureVector.h \
  jni/Thirdparty/DBoW2/include/DBoW2/BowVector.h \
- /Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/iostream \
+ /opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream \
  jni/Thirdparty/DBoW2/include/DBoW2/ScoringObject.h \
  jni/Thirdparty/DBoW2/DLib/include/DUtils/Random.h \
  jni/Thirdparty/DBoW2/include/DBoW2/BowVector.h
 
-/Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/cfloat:
+/opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/cfloat:
 
 jni/Thirdparty/DBoW2/include/DBoW2/TemplatedVocabulary.h:
 
-/Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/cassert:
+/opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/cassert:
 
-/Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/vector:
+/opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/vector:
 
-/Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/numeric:
+/opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/numeric:
 
-/Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/fstream:
+/opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/fstream:
 
-/Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm:
+/opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm:
 
-/Users/Zack/AndroidStudioProjects/ORB_SLAM2_Android_Mac/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/core.hpp:
+/home/vijay/android/tadp/opencv-src/opencv-android-sdk-2.4.9/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/core.hpp:
 
-/Users/Zack/AndroidStudioProjects/ORB_SLAM2_Android_Mac/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/types_c.h:
+/home/vijay/android/tadp/opencv-src/opencv-android-sdk-2.4.9/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/types_c.h:
 
-/Users/Zack/AndroidStudioProjects/ORB_SLAM2_Android_Mac/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/version.hpp:
+/home/vijay/android/tadp/opencv-src/opencv-android-sdk-2.4.9/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/version.hpp:
 
-/Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/cstddef:
+/opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/cstddef:
 
-/Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/complex:
+/opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/complex:
 
-/Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/map:
+/opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/map:
 
-/Users/Zack/AndroidStudioProjects/ORB_SLAM2_Android_Mac/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/operations.hpp:
+/home/vijay/android/tadp/opencv-src/opencv-android-sdk-2.4.9/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/operations.hpp:
 
-/Users/Zack/AndroidStudioProjects/ORB_SLAM2_Android_Mac/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/mat.hpp:
+/home/vijay/android/tadp/opencv-src/opencv-android-sdk-2.4.9/OpenCV-2.4.9-android-sdk/sdk/native/jni/include/opencv2/core/mat.hpp:
 
 jni/Thirdparty/DBoW2/include/DBoW2/FeatureVector.h:
 
 jni/Thirdparty/DBoW2/include/DBoW2/BowVector.h:
 
-/Users/Zack/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.8/include/iostream:
+/opt/android/ndk11/android-ndk-r11/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream:
 
 jni/Thirdparty/DBoW2/include/DBoW2/ScoringObject.h:
 

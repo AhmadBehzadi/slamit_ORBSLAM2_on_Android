@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/kangxu/Documents/JI/450/huawei/107-master/oRB_SLAM2_Android/build/intermediates/res/merged/debug/values-port/values-port.xml",
+        "outputFile": "/home/vijay/working/slam/slamit/slamit_ORBSLAM2_on_Android/107-master/oRB_SLAM2_Android/build/intermediates/res/merged/debug/values-port/values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "/Users/kangxu/Documents/JI/450/huawei/107-master/oRB_SLAM2_Android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-port/values-port.xml",
+                    "file": "/home/vijay/working/slam/slamit/slamit_ORBSLAM2_on_Android/107-master/oRB_SLAM2_Android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-port/values-port.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

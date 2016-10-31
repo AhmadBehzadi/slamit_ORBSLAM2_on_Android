@@ -1742,7 +1742,7 @@ containing a value of this type.
         public static final int btn_ok=0x7f0c0069;
         public static final int buttonPanel=0x7f0c0037;
         public static final int cal_path_txt=0x7f0c0051;
-        public static final int calibrationStart=0x7f0c0061;
+        public static final int calibrationStart=0x7f0c0063;
         public static final int cancel_action=0x7f0c0073;
         public static final int checkbox=0x7f0c0039;
         public static final int choose_calibration=0x7f0c0050;
@@ -1752,15 +1752,15 @@ containing a value of this type.
         public static final int contentPanel=0x7f0c0032;
         public static final int custom=0x7f0c0036;
         public static final int customPanel=0x7f0c0035;
-        public static final int dataTextView=0x7f0c0063;
+        public static final int dataTextView=0x7f0c0060;
         public static final int dataset_mode=0x7f0c005e;
         public static final int dataset_path_txt=0x7f0c005b;
         public static final int decor_content_parent=0x7f0c003f;
         public static final int default_activity_button=0x7f0c002a;
         public static final int dir_layout=0x7f0c0066;
         public static final int disableHome=0x7f0c000c;
-        public static final int distTextView=0x7f0c0064;
-        public static final int distanceStart=0x7f0c0062;
+        public static final int distTextView=0x7f0c0061;
+        public static final int distanceStart=0x7f0c0064;
         public static final int edit_query=0x7f0c0043;
         public static final int end=0x7f0c001c;
         public static final int end_padder=0x7f0c007e;
@@ -1831,7 +1831,7 @@ containing a value of this type.
         public static final int title=0x7f0c002d;
         public static final int title_template=0x7f0c0030;
         public static final int topPanel=0x7f0c002f;
-        public static final int track_only=0x7f0c0060;
+        public static final int track_only=0x7f0c0062;
         public static final int tutorial1_activity_java_surface_view=0x7f0c0055;
         public static final int tutorial1_activity_native_surface_view=0x7f0c0056;
         public static final int tvEmptyHint=0x7f0c0071;
