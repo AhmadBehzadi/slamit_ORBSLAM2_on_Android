@@ -30,6 +30,9 @@ If there are problems during build with dependent libs for ORB_SLAM2, refer <a h
 4. In android studio, do a clean build and then build the apk. Finally run the oRB_SMAL2_Android project and it should install the apk to your android device and run it. You should be able to run the app and select your calibration file and run SLAM.
 
 # Credits
+
+Raul Mur-Artal for getting ORB_SLAM2 released.
+
 The capstone design project for UM-SJTU Joint Institute in Shanghai Jiao Tong Univeristy sponsored by Huawei Technologies
 
 Thanks to the teamwork of Luwei Yu, Xiaobai Ma, Zhenkai Wang, Zhi Zhang and myself, we made an Android App named *slamit*, which could achieve realtime Simutaneous Localization and Mappint (SLAM) using the ORB-SLAM2 algorithm. It worked successfully on Huawei P9.
