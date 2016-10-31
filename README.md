@@ -2,7 +2,7 @@
 
 # Introduction
 
-This has some updates to the original slamit app. Some build issues replated to C++ modules were fixed.                                                  
+This has some updates to the original slamit app. Some build issues related to C++ modules were fixed.                                                  
 The main slam UI has been reorganized. Background color for the point cloud mapping has been changed to black instead of white. Mapping points are blue and red instead of black and red.
 
 # Notes on running
