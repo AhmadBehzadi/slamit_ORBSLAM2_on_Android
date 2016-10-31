@@ -22,6 +22,7 @@ The main slam UI has been reorganized. Background color for the point cloud mapp
 # Building
 
 If you want to build it from scratch, you will need to setup Android studio, ndk-build and a host of others especially if your planning on building the C++ modules and edit it for your own needs.
+If there are problems during build with dependent libs for ORB_SLAM2, refer ORB_SLAM2's github page and install them as needed.
 
 1. Setup Android studio and import the project.
 2. Setup ndk on your machine
