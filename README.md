@@ -19,6 +19,14 @@ The main slam UI has been reorganized. Background color for the point cloud mapp
 6. Once the tracking starts which will happens after a few seconds after SLAM initialization, the point cloud should start showing up on the right side in blue and red. Tracking usually starts around 20 seconds or so or even earlier provided proper camera calibration is done and updated in the .yaml file which is loaded. 
 7. As you move around, it should continue tracking and plotting the point cloud with the camera preview moving for each tracked frame as appropriate.
 
+# Building
+
+If you want to build it from scratch, you will need to setup Android studio, ndk-build and a host of others especially if your planning on building the C++ modules and edit it for your own needs.
+1. Setup Android studio and import the project.
+2. Setup ndk on your machine
+3. In order to build ORBSlam2 C++ shared object, you can build it from the terminal from the oRB_SLAM2_Android/src/main directory. Just run ndk-build and it should show some warnings but build. Note you will have to have an ndk setup on your machine and be in your path to build. Once its successful, it will create a bunch of .so files under libs/arm.../ folder. Just copy them into jniLibs/arm.../folder. 
+4. In android studio, do a clean build and then build the apk. Finally run the oRB_SMAL2_Android project and it should install the apk to your android device and run it. You should be able to run the app and select your calibration file and run SLAM.
+
 # Credits
 The capstone design project for UM-SJTU Joint Institute in Shanghai Jiao Tong Univeristy sponsored by Huawei Technologies
 
