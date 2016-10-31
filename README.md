@@ -7,7 +7,7 @@ The main slam UI has been reorganized. Background color for the point cloud mapp
 
 ![alt text][logo]
 
-[logo]: https://github.com/aivijay/slamit_ORBSMAL2_on_Android/blob/master/images/slam-samsung-s6edge.png "SMAL Screenshot"
+[logo]: https://github.com/aivijay/slamit_ORBSLAM2_on_Android/blob/master/images/slam-samsung-s6edge.png "SMAL Screenshot"
 
 # Notes on running
 
